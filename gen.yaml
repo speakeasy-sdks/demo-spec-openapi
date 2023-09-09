@@ -2,8 +2,8 @@ configVersion: 1.0.0
 management:
   docChecksum: 2516596125ef223fbbef6c434d22eaac
   docVersion: 1.0.0
-  speakeasyVersion: 1.75.0
-  generationVersion: 2.89.1
+  speakeasyVersion: 1.82.3
+  generationVersion: 2.107.3
 generation:
   comments:
     disableComments: false
@@ -14,10 +14,10 @@ generation:
   tagNamespacingDisabled: false
 features:
   go:
-    core: 2.85.0
+    core: 2.88.0
     globalServerURLs: 2.82.0
 go:
-  version: 0.1.0
+  version: 0.2.0
   clientServerStatusCodesAsErrors: true
   maxMethodParams: 0
   packageName: github.com/speakeasy-sdks/demo-spec-openapi
