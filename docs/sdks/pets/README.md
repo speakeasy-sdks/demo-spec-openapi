@@ -18,11 +18,11 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/demo-spec-openapi"
+	demospecopenapi "github.com/speakeasy-sdks/demo-spec-openapi"
 )
 
 func main() {
-    s := demo.New()
+    s := demospecopenapi.New()
 
     ctx := context.Background()
     res, err := s.Pets.CreatePets(ctx)
@@ -60,16 +60,16 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/demo-spec-openapi"
+	demospecopenapi "github.com/speakeasy-sdks/demo-spec-openapi"
 	"github.com/speakeasy-sdks/demo-spec-openapi/pkg/models/operations"
 )
 
 func main() {
-    s := demo.New()
+    s := demospecopenapi.New()
 
     ctx := context.Background()
     res, err := s.Pets.ListPets(ctx, operations.ListPetsRequest{
-        Limit: demo.Int(548814),
+        Limit: demospecopenapi.Int(548814),
     })
     if err != nil {
         log.Fatal(err)
@@ -106,12 +106,12 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/demo-spec-openapi"
+	demospecopenapi "github.com/speakeasy-sdks/demo-spec-openapi"
 	"github.com/speakeasy-sdks/demo-spec-openapi/pkg/models/operations"
 )
 
 func main() {
-    s := demo.New()
+    s := demospecopenapi.New()
 
     ctx := context.Background()
     res, err := s.Pets.ShowPetByID(ctx, operations.ShowPetByIDRequest{
