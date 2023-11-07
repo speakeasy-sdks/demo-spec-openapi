@@ -1,5 +1,5 @@
 # Pets
-(*Pets*)
+(*.Pets*)
 
 ### Available Operations
 

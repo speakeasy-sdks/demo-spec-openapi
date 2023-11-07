@@ -15,18 +15,18 @@ import (
 	"strings"
 )
 
-type pets struct {
+type Pets struct {
 	sdkConfiguration sdkConfiguration
 }
 
-func newPets(sdkConfig sdkConfiguration) *pets {
-	return &pets{
+func newPets(sdkConfig sdkConfiguration) *Pets {
+	return &Pets{
 		sdkConfiguration: sdkConfig,
 	}
 }
 
 // CreatePets - Create a pet
-func (s *pets) CreatePets(ctx context.Context) (*operations.CreatePetsResponse, error) {
+func (s *Pets) CreatePets(ctx context.Context) (*operations.CreatePetsResponse, error) {
 	baseURL := utils.ReplaceParameters(s.sdkConfiguration.GetServerDetails())
 	url := strings.TrimSuffix(baseURL, "/") + "/pets"
 
@@ -85,7 +85,7 @@ func (s *pets) CreatePets(ctx context.Context) (*operations.CreatePetsResponse, 
 }
 
 // ListPets - List all pets
-func (s *pets) ListPets(ctx context.Context, request operations.ListPetsRequest) (*operations.ListPetsResponse, error) {
+func (s *Pets) ListPets(ctx context.Context, request operations.ListPetsRequest) (*operations.ListPetsResponse, error) {
 	baseURL := utils.ReplaceParameters(s.sdkConfiguration.GetServerDetails())
 	url := strings.TrimSuffix(baseURL, "/") + "/pets"
 
@@ -161,7 +161,7 @@ func (s *pets) ListPets(ctx context.Context, request operations.ListPetsRequest)
 }
 
 // ShowPetByID - Info for a specific pet
-func (s *pets) ShowPetByID(ctx context.Context, request operations.ShowPetByIDRequest) (*operations.ShowPetByIDResponse, error) {
+func (s *Pets) ShowPetByID(ctx context.Context, request operations.ShowPetByIDRequest) (*operations.ShowPetByIDResponse, error) {
 	baseURL := utils.ReplaceParameters(s.sdkConfiguration.GetServerDetails())
 	url, err := utils.GenerateURL(ctx, baseURL, "/pets/{petId}", request, nil)
 	if err != nil {
