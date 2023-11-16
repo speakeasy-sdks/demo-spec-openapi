@@ -1,6 +1,4 @@
 <!-- Start SDK Example Usage -->
-
-
 ```go
 package main
 
@@ -8,6 +6,7 @@ import (
 	"context"
 	demospecopenapi "github.com/speakeasy-sdks/demo-spec-openapi"
 	"log"
+	"net/http"
 )
 
 func main() {

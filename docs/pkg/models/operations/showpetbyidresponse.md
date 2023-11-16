@@ -9,4 +9,4 @@
 | `Error`                                                 | [*shared.Error](../../../pkg/models/shared/error.md)    | :heavy_minus_sign:                                      | unexpected error                                        |
 | `Pet`                                                   | [*shared.Pet](../../../pkg/models/shared/pet.md)        | :heavy_minus_sign:                                      | Expected response to a valid request                    |
 | `StatusCode`                                            | *int*                                                   | :heavy_check_mark:                                      | HTTP response status code for this operation            |
-| `RawResponse`                                           | [*http.Response](https://pkg.go.dev/net/http#Response)  | :heavy_minus_sign:                                      | Raw HTTP response; suitable for custom response parsing |
+| `RawResponse`                                           | [*http.Response](https://pkg.go.dev/net/http#Response)  | :heavy_check_mark:                                      | Raw HTTP response; suitable for custom response parsing |
