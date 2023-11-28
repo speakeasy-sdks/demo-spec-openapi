@@ -24,7 +24,6 @@ pkg/utils/utils.go
 /pkg/models/operations/showpetbyid.go
 /pkg/models/shared/error.go
 /pkg/models/shared/pet.go
-USAGE.md
 docs/pkg/models/operations/createpetsresponse.md
 docs/pkg/models/operations/listpetsrequest.md
 docs/pkg/models/operations/listpetsresponse.md
@@ -34,4 +33,5 @@ docs/pkg/models/shared/error.md
 docs/pkg/models/shared/pet.md
 docs/sdks/demo/README.md
 docs/sdks/pets/README.md
+USAGE.md
 .gitattributes
