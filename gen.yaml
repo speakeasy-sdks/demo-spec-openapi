@@ -2,8 +2,8 @@ configVersion: 1.0.0
 management:
   docChecksum: 2516596125ef223fbbef6c434d22eaac
   docVersion: 1.0.0
-  speakeasyVersion: 1.123.0
-  generationVersion: 2.202.2
+  speakeasyVersion: 1.126.0
+  generationVersion: 2.213.3
 generation:
   comments: {}
   sdkClassName: demo
@@ -12,10 +12,10 @@ generation:
     optionalPropertyRendering: withExample
 features:
   go:
-    core: 3.1.5
+    core: 3.2.0
     globalServerURLs: 2.82.1
 go:
-  version: 0.5.3
+  version: 0.6.0
   clientServerStatusCodesAsErrors: true
   flattenGlobalSecurity: true
   imports:
