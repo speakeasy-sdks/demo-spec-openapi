@@ -4,7 +4,7 @@ management:
   docChecksum: 1bdb7a6f8bf3995d4b40475228403253
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.234.3
+  generationVersion: 2.237.2
   releaseVersion: 0.6.3
   configChecksum: 7d699213b1ff5ac8519b2896e817c17b
   repoURL: https://github.com/speakeasy-sdks/demo-spec-openapi.git
@@ -20,7 +20,6 @@ generatedFiles:
   - demo.go
   - go.mod
   - go.sum
-  - tests/helpers.go
   - pkg/models/sdkerrors/sdkerror.go
   - pkg/types/bigint.go
   - pkg/types/date.go
