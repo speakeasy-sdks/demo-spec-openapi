@@ -4,16 +4,16 @@ management:
   docChecksum: 1bdb7a6f8bf3995d4b40475228403253
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.263.3
-  releaseVersion: 0.8.1
-  configChecksum: 57be7b96ffe02bfedf8062cbe351517f
+  generationVersion: 2.272.4
+  releaseVersion: 0.8.2
+  configChecksum: 19bed16d5d4635e9982e601e8dee1764
   repoURL: https://github.com/speakeasy-sdks/demo-spec-openapi.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/demo-spec-openapi
   published: true
 features:
   go:
-    core: 3.4.1
+    core: 3.4.3
     globalServerURLs: 2.82.1
 generatedFiles:
   - pets.go
