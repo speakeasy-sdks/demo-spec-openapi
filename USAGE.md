@@ -7,7 +7,6 @@ import (
 	demospecopenapi "github.com/speakeasy-sdks/demo-spec-openapi"
 	"github.com/speakeasy-sdks/demo-spec-openapi/pkg/models/shared"
 	"log"
-	"net/http"
 )
 
 func main() {
@@ -21,8 +20,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-
-	if res.StatusCode == http.StatusOK {
+	if res != nil {
 		// handle response
 	}
 }
